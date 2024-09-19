@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: payment
-        image: maxca789/payment:$IMAGE_TAG
+        image: naponm/payment:$IMAGE_TAG
         ports:
         - containerPort: 8085
         resources:
